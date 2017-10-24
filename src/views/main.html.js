@@ -1,7 +1,6 @@
 const mainTemplate = () => {
 	return(
-		`
-		  {{> header }}
+		` {{> header }}
 	  	{{> breadcrumbs }}
 	  	{{> topLine }}
 	  	{{> accordion }}

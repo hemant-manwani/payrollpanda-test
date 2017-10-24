@@ -16,17 +16,9 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>James Isaac Neutron</td>
-              <td>neutron@example.com</td>
-              <td>City</td>
-              <td>Always</td>
-              <td>Every day</td>
-              <td>13/08/2018 <span>11:29 AM</span></td>
-              <td>
-                <i class="fa fa-trash-o"></i>
-              </td>
-            </tr>
+            {{#each bikers}}
+              {{> bikerRow this }}
+            {{/each}}
           </tbody>
         </table>
       </div>
